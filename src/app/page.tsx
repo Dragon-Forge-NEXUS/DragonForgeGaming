@@ -9,9 +9,11 @@ export default async function Home() {
   // const hello = await api.post.hello.query({ text: "from tRPC" });
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-dfnc-dfg to-[#15162c] text-white">
+    <main className=" flex min-h-screen flex-col items-center justify-center bg-gradient-to-l from-dfnc-dfg to-[#000] text-white">
       <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
-        <h1>Welcome to DragonForgeGaming!</h1>
+        <h1 className="text-5xl font-extrabold tracking-tight text-black sm:text-[5rem] glow">
+          Welcome to DragonForgeGaming!
+        </h1>
       </div>
     </main>
   );
